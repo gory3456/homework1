@@ -1,0 +1,72 @@
+body{
+	font-family: 'Montserrat',sans-serif;
+	color:#A5A3B9;
+
+
+}
+
+.main-title{
+	
+	font-size: 70px;
+	font-weight: 400;
+	line-height: 78px;
+	text-align: center;
+
+}
+.card {
+	padding:25px;
+}
+
+.card__inf {
+	font-size: 12px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+
+}
+.card__name {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 27px;
+	text-align: left;
+	color:#515076;
+
+}
+.card_descr {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: left;
+
+}
+.card__struct {
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: left;
+
+}
+.card__compound {
+	font-family: Montserrat;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18px;
+	text-align: left;
+
+}
+.card__price {
+}
+.card__price-descr {
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	text-align: left;
+
+}
+.card__price-num {
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 24px;
+	text-align: left;
+
+}
