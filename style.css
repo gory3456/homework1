@@ -1,12 +1,17 @@
 body{
 	font-family: 'Montserrat',sans-serif;
 	color:#A5A3B9;
+	margin:0 85px;
+	padding: 0;
 
 
 }
 
 .main-title{
-	
+	margin:220px 0 110px 0;
+	padding:0;
+	color: #515076;
+
 	font-size: 70px;
 	font-weight: 400;
 	line-height: 78px;
@@ -15,8 +20,16 @@ body{
 }
 .card {
 	padding:25px;
+	box-shadow: 2px 2px 10px 0px rgba(81, 80, 118, 0.1);
+	background: rgb(247, 247, 250);
+	list-style-type: none;
+	
+}
+.card:last-child {
+	margin: 0px;
 }
 .card__image{
+	display: block;
 	margin-bottom: 30px;
 }
 
@@ -25,6 +38,10 @@ body{
 	font-weight: 400;
 	line-height: 24px;
 	text-align: left;
+	text-transform: uppercase;
+	margin:0 ;
+	padding:0;
+	
 
 }
 .card__name {
@@ -34,32 +51,41 @@ body{
 	text-align: left;
 	color:#515076;
 	margin:5px 0 ;
+	padding:0;
 
 }
-.card_descr {
+.card__descr {
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 18px;
 	text-align: left;
-
+	margin:0 0 15px 0;
+	padding:0;
 }
 .card__struct {
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 18px;
 	text-align: left;
+	padding:0;
+	margin:0;
 
 }
 .card__compound {
-	font-family: Montserrat;
+	
 	font-size: 13px;
 	font-weight: 400;
 	line-height: 18px;
+	margin:0;
+	padding:0 0 0 15px;
 	text-align: left;
 
 }
 .card__price {
 	margin:25px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
 }
 .card__price-descr {
 	font-size: 20px;
@@ -67,7 +93,8 @@ body{
 	line-height: 24px;
 	text-align: left;
 	color:#515076;
-
+	margin-bottom:5px;
+	padding:0;
 }
 .card__price-num {
 	font-size: 20px;
