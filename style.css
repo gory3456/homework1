@@ -11,7 +11,7 @@ body {
 	width: 1110px;
 	margin: 0 auto;
 }
-.catalog{
+.catalog {
 	background-image: url("img/bg_1.png");
 	background-repeat: no-repeat;
 	padding-top:220px;
@@ -41,7 +41,7 @@ body {
 .card__image {
 	display: block;
 	margin-bottom: 30px;
-	width:100%;
+	width: 100%;
 }
 
 .card__inf {
@@ -52,7 +52,6 @@ body {
 	text-transform: uppercase;
 	margin: 0;
 	padding: 0;
-	
 }
 
 .card__name {
@@ -115,9 +114,9 @@ body {
 	text-align: left;
 	color: #515076;
 }
-.main-cards{
+.main-cards {
 	display: flex;
 	flex-wrap: wrap;
-	gap:45px;
+	gap: 45px;
 	justify-content: center;
 }
