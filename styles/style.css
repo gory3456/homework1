@@ -1,0 +1,11 @@
+* ,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Montserrat',sans-serif;
+	color: #A5A3B9;
+	margin: 0 85px;
+	padding: 0;
+}
